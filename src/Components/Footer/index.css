@@ -1,0 +1,25 @@
+.fotterContainer{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.addressText{
+    color: white;
+}
+
+.contactUsText{
+    background-color: bisque;
+    color: black;
+    margin-right: 20px;
+
+}
+
+.contactUsCon{
+    display: flex;
+    flex-direction: row;
+}

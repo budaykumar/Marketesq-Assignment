@@ -1,0 +1,13 @@
+.topStuHeading{
+    text-align: center;
+}
+.topStuCompContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.reviewCompContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

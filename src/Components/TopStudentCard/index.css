@@ -1,0 +1,36 @@
+.topStuContainer{
+    height: 300px;
+    width: 280px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .topStuContainer{
+        height: 150px;
+        width: 140px;
+        margin: 10px;
+    }
+}
+.stuImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: gainsboro;
+    
+}
+
+@media screen and (max-width: 768px){
+    .stuImage{
+        height: 100px;
+
+    }
+}
+
+.stuDescription{
+    background-color: gray;
+    padding: 5px;
+}
+

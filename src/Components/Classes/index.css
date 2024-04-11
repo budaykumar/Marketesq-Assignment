@@ -1,0 +1,31 @@
+.thumbnailCon{
+    height: 350px;
+    width: 530px;
+    background-color: lightgray;
+    margin-right: 20px;
+}
+
+
+
+.practiceButton{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 120px;
+}
+
+.classesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.vedioDiscpContainer{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}

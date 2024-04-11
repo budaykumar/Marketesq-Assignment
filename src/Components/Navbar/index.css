@@ -1,0 +1,65 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.linksContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+
+@media screen and (max-width: 768px){
+    .linksContainer{
+        padding: 10px;
+    }
+}
+
+
+.eachLink{
+    margin-right: 30px;
+    font-size: 25PX;
+}
+
+@media screen and (max-width: 768px){
+    .eachLink{
+        font-size: 15px;
+        margin-right: 15px;
+    }
+}
+
+.active{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .active{
+        padding: 5px;
+        border-radius: 5px;
+        height: 15px;
+
+    }
+}
+
+.contactIcon{
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .contactIcon{
+        height: 25px;
+        width: 25px;
+    }
+}
