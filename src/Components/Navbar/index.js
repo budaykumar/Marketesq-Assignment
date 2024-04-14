@@ -11,15 +11,16 @@ class Navbar extends Component {
             <div >
             <nav className="mainContainer">
                 <div>
-                    <h2>karo abhayaas</h2>
+                    <NavLink to = "/"><h2>karo abhayaas</h2></NavLink>
+                    
                 </div>
                 <div className="linksContainer">
                 <NavLink to= "/" className= "eachLink">JOIN US</NavLink>
                 <NavLink to = "/classes" className= "eachLink">Classes</NavLink>
                 <NavLink to = "/products" className= "eachLink">Products</NavLink>
-                <NavLink to = "./about" className= "eachLink">About</NavLink>
-                <IoIosContact className="contactIcon" />
-                <IoMdCart className="contactIcon" />
+                <NavLink to = "/about" className= "eachLink">About</NavLink>
+                <NavLink to = "/login"><IoIosContact className="contactIcon" /></NavLink>
+                <NavLink to = "/cart"><IoMdCart className="contactIcon" /></NavLink>
                 </div>
             </nav>
             </div>

@@ -1,0 +1,16 @@
+.userDetailsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    border: 1px solid lightgray;
+}
+
+.userButton{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 5px;
+    height: 30px;
+    width: 100px;
+}

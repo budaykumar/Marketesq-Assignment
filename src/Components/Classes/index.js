@@ -5,6 +5,8 @@ import "./index.css"
 
 class Classes extends Component {
     render(){
+        const {eachVideoDetails} = this.props;
+        const {videoTitle, videoDescription} = eachVideoDetails
         return(
             <div>
                 <div className="classesContainer">
@@ -12,8 +14,8 @@ class Classes extends Component {
                     <p>Thumbnail Component</p>
                 </div>
                 <div className="vedioDiscpContainer">
-                    <h3>Sample Video Title</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br/> industry. Lorem Ipsum has been the industry's standard dummy text <br/> ever since the 1500s, when an unknown printer took a galley of <br/> type and scrambled it to make a type specimen book. It has <br/> survived not only five centuries, but also the leap into <br/> electronic typesetting, remaining essentially unchanged.</p>
+                    <h3>{videoTitle}</h3>
+                    <p>{videoDescription}</p>
                     <button className="practiceButton">PRACTICE</button> 
                 </div>
             </div>

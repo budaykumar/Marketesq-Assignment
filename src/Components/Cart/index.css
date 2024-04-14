@@ -1,0 +1,48 @@
+.checkoutButton{
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin-top: 25px;
+}
+.chekoutContainer{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.cartItemsContainer{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.cartMainContainer{
+    border: 1px solid lightgray;
+    width: 800px;
+    height: 500px;
+}
+
+.cartButtonsCon{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.deleteButton{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 150px;
+    margin: 5px;
+
+}
+
+.cartOuterCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

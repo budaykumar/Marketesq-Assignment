@@ -6,7 +6,7 @@ class CourseCard extends Component{
     render(){
         return(
             <div className="cardMainContainer">
-                <h1>CourseCard Component</h1>
+                
             </div>
         )
     }

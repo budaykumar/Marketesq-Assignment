@@ -1,0 +1,17 @@
+.aboutImage{
+    background-color: lightgray;
+    height: 330px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+
+.aboutMainContainer{
+    display: flex;
+    flex-direction: row;
+    
+}
+.para{
+    font-size: 25px;
+    margin-left: 20px;
+}

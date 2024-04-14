@@ -4,14 +4,16 @@ import "./index.css"
 
 class TopStudents extends Component{
     render(){
+        const {eachStudentDetails} = this.props;
+        const {studentName, review} = eachStudentDetails;
         return(
             <div className="topStuContainer">
                 <div className="stuImage">
                      <p>TopStudents Component</p>
                 </div>
                 <div className="stuDescription">
-                    <h3>Amit Jha</h3>
-                    <p>"Some review submitted by the user about the company"</p>
+                    <h3>{studentName}</h3>
+                    <p>{review}</p>
                 </div>
             </div>
         )
